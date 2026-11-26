@@ -1,0 +1,6 @@
+services:
+  uv:
+    build:
+      context: .
+      dockerfile: uv.dockerfile
+

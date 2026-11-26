@@ -1,0 +1,9 @@
+# https://github.com/actions/runner-images/blob/main/images/macos/macos-26-arm64-Readme.md
+name: macOS-26-arm64
+on: push
+jobs:
+  ci:
+    runs-on: macOS-26-arm64
+    steps:
+    - uses: actions/checkout@v7
+    - run: make
